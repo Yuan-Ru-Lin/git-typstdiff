@@ -9,4 +9,4 @@ license-files = ["LICENSE"]
 keywords = ["git", "typstdiff", "diff", "typst"]
 
 [project.scripts]
-git-typstdiff = "git_typstdiff:main"
+git-typstdiff = "git_typstdiff.cli:main"

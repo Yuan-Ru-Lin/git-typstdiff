@@ -1,0 +1,2 @@
+[console_scripts]
+git-typstdiff = git_typstdiff.cli:main

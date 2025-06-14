@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/git_typstdiff/__init__.py
+src/git_typstdiff/cli.py
+src/git_typstdiff.egg-info/PKG-INFO
+src/git_typstdiff.egg-info/SOURCES.txt
+src/git_typstdiff.egg-info/dependency_links.txt
+src/git_typstdiff.egg-info/entry_points.txt
+src/git_typstdiff.egg-info/top_level.txt

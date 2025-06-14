@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: git-typstdiff
+Version: 0.1.0
+Author-email: Yuan-Ru Lin <yuanruleonlin@gmail.com>
+License-Expression: MIT
+Keywords: git,typstdiff,diff,typst
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
