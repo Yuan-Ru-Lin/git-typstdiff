@@ -55,9 +55,9 @@ def main():
         if line.startswith('  '):
             out.append(line[2:])
         elif line.startswith('- '):
-            out.append(f"#delete({line[2:]})")
+            out.append(f"#delete[{line[2:]}]")
         elif line.startswith('+ '):
-            out.append(f"#insert({line[2:]})")
+            out.append(f"#insert[{line[2:]}]")
         # ignore lines starting with '? '
 
     result = "\n".join(out)
