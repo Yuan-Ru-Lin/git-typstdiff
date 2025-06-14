@@ -31,3 +31,8 @@ Then compile the resulting diff:
 ```bash
 typst compile diff.typ
 ```
+
+## Caveats
+
+- **Limited `table` support:** This tool performs a simple line-based diff and does **not** produce proper in-table cell diffs. Tables (`#table`) will be treated as plain text and can display incorrectly if cells shift or wrap.
+- **Single-file only:** Nested `#include` directives aren’t supported in this version—stick to a monolithic `.typ` file.
