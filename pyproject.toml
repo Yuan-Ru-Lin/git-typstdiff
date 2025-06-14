@@ -1,0 +1,12 @@
+[project]
+name = "git-typstdiff"
+version = "0.1.0"
+requires-python = ">=3.6"
+authors = [{ name = "Yuan-Ru Lin", email = "yuanruleonlin@gmail.com" }]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["git", "typstdiff", "diff", "typst"]
+
+[project.scripts]
+git-typstdiff = "git_typstdiff:main"
